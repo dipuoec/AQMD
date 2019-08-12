@@ -1,0 +1,7 @@
+Label	Weight	Text
+l_Weather	1	how is the weather this weekend
+l_Weather	1	show current weather for boise
+l_Weather	1	soliciting today's weather
+l_Weather	1	i want to know the weather at death valley for now
+q_qna	1	Who are you
+q_qna	1	What do you do

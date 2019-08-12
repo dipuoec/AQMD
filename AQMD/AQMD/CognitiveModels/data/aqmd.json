@@ -1,0 +1,68 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "Dispatch",
+  "name": "aqmd",
+  "desc": "Dispatch model for aqmd",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "l_Weather"
+    },
+    {
+      "name": "q_qna"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [
+    {
+      "name": "Date_PatternAny",
+      "roles": [],
+      "explicitList": []
+    },
+    {
+      "name": "Location_PatternAny",
+      "roles": [],
+      "explicitList": []
+    }
+  ],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "weather at {Location_PatternAny} on {Date_PatternAny}",
+      "intent": "l_Weather"
+    },
+    {
+      "pattern": "{Date_PatternAny} weather in {Location_PatternAny}",
+      "intent": "l_Weather"
+    },
+    {
+      "pattern": "how's the weather in {Location_PatternAny} for {Date_PatternAny}",
+      "intent": "l_Weather"
+    },
+    {
+      "pattern": "what's the forecast in {Location_PatternAny} for {Date_PatternAny}",
+      "intent": "l_Weather"
+    },
+    {
+      "pattern": "what's the forecast for {Date_PatternAny} in {Location_PatternAny}",
+      "intent": "l_Weather"
+    },
+    {
+      "pattern": "show me the forecast in {Location_PatternAny}",
+      "intent": "l_Weather"
+    }
+  ],
+  "utterances": [],
+  "settings": [
+    {
+      "name": "NormalizeDiacritics",
+      "value": "true"
+    }
+  ]
+}

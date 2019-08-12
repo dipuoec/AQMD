@@ -1,0 +1,30 @@
+Label	Weight	Text
+l_Weather	1	how is the weather this weekend
+l_Weather	1	show current weather for boise
+l_Weather	1	soliciting today's weather
+l_Weather	1	i want to know the weather at death valley for now
+l_Weather	1	how was the weather in chambersburg last sunday
+l_Weather	1	show me the forecast at alabama
+l_Weather	1	what's the weather like in minneapolis
+l_Weather	1	get the forcast for me
+l_Weather	1	weather of delhi for next week please
+l_Weather	1	get for me the weather conditions in sonoma county today
+l_Weather	1	what's the weather going to be like in hawaii tomorrow
+l_Weather	1	weather
+l_Weather	1	provide me by toronto weather please
+l_Weather	1	current weather
+l_Weather	1	what will the weather be tomorrow in new york
+l_Weather	1	get the last week temperature greenwood indiana
+l_Weather	1	get florence temperature for tomorrow
+l_Weather	1	forecast
+l_Weather	1	get the weather at saint george utah for next week
+q_qna	1	Who are you
+q_qna	1	What do you do
+q_qna	1	greetings
+q_qna	1	What
+q_qna	1	What are you
+q_qna	1	hi
+q_qna	1	good evening
+q_qna	1	What is your name
+q_qna	1	good morning
+q_qna	1	What should I call you

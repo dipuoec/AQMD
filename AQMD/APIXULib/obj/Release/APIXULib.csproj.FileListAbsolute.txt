@@ -1,0 +1,11 @@
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\APIXULib\bin\Release\APIXULib.dll
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\APIXULib\bin\Release\APIXULib.pdb
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\APIXULib\bin\Release\Newtonsoft.Json.dll
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\APIXULib\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\APIXULib\bin\Release\Newtonsoft.Json.xml
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\APIXULib\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\APIXULib\obj\Release\APIXULib.csprojAssemblyReference.cache
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\APIXULib\obj\Release\APIXULib.csproj.CoreCompileInputs.cache
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\APIXULib\obj\Release\APIXULib.csproj.CopyComplete
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\APIXULib\obj\Release\APIXULib.dll
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\APIXULib\obj\Release\APIXULib.pdb

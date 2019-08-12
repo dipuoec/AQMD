@@ -1,0 +1,51 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://1v1ft52dt8bm3k1qad3lgjxm-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/AQMD-Logo.jpg",
+      "size": "small"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to AQMD Bot!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": "yes",
+      "text": "Follow the below links to know more About AQMD .",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "What is AIR Quality",
+      "url": "http://www.aqmd.gov/home/air-quality"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Rule and Compliances",
+      "url": "http://www.aqmd.gov/home/rules-compliance"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Incetives and Programs",
+      "url": "http://www.aqmd.gov/home/programs"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Permits",
+      "url": "http://www.aqmd.gov/home/permits"
+    }
+  ]
+}

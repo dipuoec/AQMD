@@ -1,0 +1,39 @@
+{
+  "authoringRegion": "westus",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_Weather",
+      "appId": "d7230727-dbff-4b2d-88a5-a579d5a6a1ea",
+      "authoringKey": "247911f852a746b2b14c08931784af76",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "AQMD_Test",
+      "id": "1"
+    },
+    {
+      "intentName": "q_qna",
+      "kbId": "79f87603-ed6a-4cb2-a783-34ea87d68d24",
+      "subscriptionKey": "e9c7be16432d4e48b2278c1e1e8b7453",
+      "type": "qna",
+      "name": "AQMD-QnA",
+      "id": "2"
+    }
+
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+  ],
+  "appId": "2b47dcd5-2987-4c20-9dc7-3d348b421dc8",
+  "authoringKey": "247911f852a746b2b14c08931784af76",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "aqmd"
+}

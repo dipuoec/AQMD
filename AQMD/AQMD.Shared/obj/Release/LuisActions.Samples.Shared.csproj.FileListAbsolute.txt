@@ -1,0 +1,17 @@
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\bin\Release\LuisActions.Samples.Shared.dll.config
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\bin\Release\LuisActions.Samples.Shared.dll
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\bin\Release\LuisActions.Samples.Shared.pdb
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\bin\Release\AdaptiveCards.dll
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\bin\Release\APIXULib.dll
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\bin\Release\DotNetZip.dll
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\bin\Release\Newtonsoft.Json.dll
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\bin\Release\APIXULib.pdb
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\bin\Release\DotNetZip.xml
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\bin\Release\Newtonsoft.Json.xml
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\obj\Release\LuisActions.Samples.Shared.csprojAssemblyReference.cache
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\obj\Release\LuisActions.Samples.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\obj\Release\LuisActions.Samples.Shared.csproj.CopyComplete
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\obj\Release\LuisActions.Samples.Shared.dll
+C:\Users\Preludesys\source\repos\botbuilder-samples\samples\csharp_dotnetcore\LuisActions.Samples.Shared\obj\Release\LuisActions.Samples.Shared.pdb

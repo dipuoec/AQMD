@@ -1,0 +1,7 @@
+Label	Weight	Text
+l_Weather	1	get the last week temperature greenwood indiana
+l_Weather	1	get florence temperature for tomorrow
+l_Weather	1	forecast
+l_Weather	1	get the weather at saint george utah for next week
+q_qna	1	good morning
+q_qna	1	What should I call you

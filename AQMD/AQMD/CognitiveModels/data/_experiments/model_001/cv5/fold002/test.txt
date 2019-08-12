@@ -1,0 +1,7 @@
+Label	Weight	Text
+l_Weather	1	weather of delhi for next week please
+l_Weather	1	get for me the weather conditions in sonoma county today
+l_Weather	1	what's the weather going to be like in hawaii tomorrow
+l_Weather	1	weather
+q_qna	1	What are you
+q_qna	1	hi

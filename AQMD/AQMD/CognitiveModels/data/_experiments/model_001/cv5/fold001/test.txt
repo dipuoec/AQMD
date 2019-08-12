@@ -1,0 +1,7 @@
+Label	Weight	Text
+l_Weather	1	how was the weather in chambersburg last sunday
+l_Weather	1	show me the forecast at alabama
+l_Weather	1	what's the weather like in minneapolis
+l_Weather	1	get the forcast for me
+q_qna	1	greetings
+q_qna	1	What

@@ -1,0 +1,4 @@
+No	Intent	Utterance Count	Utterance Average Length	Utterance Maximum Length	Utterance Minimum Length	Utterance Length StdDev
+0	l_Weather	19	35.10526	56	7	14.67763
+1	q_qna	10	11.5	22	2	5.77831
+ 	__ALL__	29	26.96552	56	2	16.72142

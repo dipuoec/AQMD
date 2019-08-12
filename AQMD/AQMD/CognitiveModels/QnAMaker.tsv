@@ -1,0 +1,26 @@
+﻿Question	Answer	Source	Metadata
+hi	Hello!	QnAMaker.tsv	
+greetings	Hello!	QnAMaker.tsv	
+good morning	Hello!	QnAMaker.tsv	
+good evening	Hello!	QnAMaker.tsv	
+What are you?	I am the AQMD Weather bot! I can provide weather forecast details for any location. Try Me!!.	QnAMaker.tsv	
+What?	I am the AQMD Weather bot! I can provide weather forecast details for any location. Try Me!!.	QnAMaker.tsv	
+What do you do?	 I am the AQMD Weather bot! I can provide weather forecast details for any location. Try Me!!.	QnAMaker.tsv	
+Who are you?	I am the AQMD Weather bot! I can provide weather forecast details for any location. Try Me!!.	QnAMaker.tsv	
+What is your name?	I am the AQMD Weather bot! I can provide weather forecast details for any location. Try Me!!.	QnAMaker.tsv	
+What should I call you?	I am the AQMD Weather bot! I can provide weather forecast details for any location. Try Me!!.	QnAMaker.tsv
+What are you?	I am the AQMD Weather bot! I can provide weather forecast details for any location. Try Me!!.	QnAMaker.tsv	
+What is air pollution?	Air pollution is a complex mixture of gases and small particles suspended in the air. The different health effects of air pollution are dependent on how much of the pollutant is in the air, how long a person is exposed, as well as the person’s health conditions, age, and genetic background. Children, elderly people, and people with certain health conditions, such as diabetes, heart or lung disease, are more sensitive to the health effects of air pollution.	QnAMaker.tsv	
+Where does particulate matter come from?	Combustion sources: cars, trucks, trains, ships, aircraft, certain types of facilities, meat cooking, residential wood burning, wildfires.	QnAMaker.tsv	
+Is particulate matter Visible?	Yes, but only at very high levels.	QnAMaker.tsv	
+What are the main health effects?	Cardiovascular and respiratory.	QnAMaker.tsv	
+What are the most affected areas?	Areas near major roadways, ports, railyards, and other combustion sources..	QnAMaker.tsv
+How can I check the Air Quality in my area?	The Air Quality Index (AQI) was developed to help translate data collected from air pollutant monitoring stations into a scale. The AQI is a number that ranges from 0 to 500 that indicates how clean or polluted the air is, and what associated health effects might be of concern to diverse individuals within a population. The AQI focuses on health affects individuals may experience within a few hours or days after breathing polluted air. The higher the AQI value, the greater the level of air pollution and the greater the health concern.	QnAMaker.tsv	
+Cancel Cancel QnAMaker.tsv
+Help Help QnAMaker.tsv
+Quit  Cancel  QnAMaker.tsv
+Exit  Cancel QnAMaker.tsv
+I need help   Help  QnAMaker.tsv
+I need assistance  Help  QnAMaker.tsv
+Can you assist me?  Help QnAMaker.tsv
+?  Help QnAMaker.tsv
