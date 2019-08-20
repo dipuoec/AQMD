@@ -1,0 +1,491 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "Dispatch",
+  "name": "aqmd",
+  "desc": "Dispatch model for aqmd",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "l_Weather"
+    },
+    {
+      "name": "q_qna"
+    }
+  ],
+  "entities": [{
+      "name": "Location",
+      "roles": []
+    },
+    {
+      "name": "Date",
+      "roles": []
+    }],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [
+    {
+      "name": "Date_PatternAny",
+      "roles": [],
+      "explicitList": []
+    },
+    {
+      "name": "Location_PatternAny",
+      "roles": [],
+      "explicitList": []
+    }
+  ],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "weather at {Location_PatternAny} on {Date_PatternAny}",
+      "intent": "l_Weather"
+    },
+    {
+      "pattern": "{Date_PatternAny} weather in {Location_PatternAny}",
+      "intent": "l_Weather"
+    },
+    {
+      "pattern": "how's the weather in {Location_PatternAny} for {Date_PatternAny}",
+      "intent": "l_Weather"
+    },
+    {
+      "pattern": "what's the forecast in {Location_PatternAny} for {Date_PatternAny}",
+      "intent": "l_Weather"
+    },
+    {
+      "pattern": "what's the forecast for {Date_PatternAny} in {Location_PatternAny}",
+      "intent": "l_Weather"
+    },
+    {
+      "pattern": "show me the forecast in {Location_PatternAny}",
+      "intent": "l_Weather"
+    }
+  ],
+  "utterances": [
+    {
+      "text": "current weather ?",
+      "intent": "l_Weather",
+      "entities": []
+    },
+    {
+      "text": "forecast",
+      "intent": "l_Weather",
+      "entities": []
+    },
+    {
+      "text": "weather",
+      "intent": "l_Weather",
+      "entities": []
+    },
+    {
+      "text": "get florence temperature for tomorrow",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 4,
+          "endPos": 11,
+          "entity": "Location"
+        },
+        {
+          "startPos": 29,
+          "endPos": 36,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "get for me the weather conditions in sonoma county today",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 37,
+          "endPos": 49,
+          "entity": "Location"
+        },
+        {
+          "startPos": 51,
+          "endPos": 55,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "get the last week temperature greenwood indiana",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 26,
+          "endPos": 42,
+          "entity": "Location"
+        },
+        {
+          "startPos": 8,
+          "endPos": 16,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "get the forcast for me",
+      "intent": "l_Weather",
+      "entities": []
+    },
+    {
+      "text": "get the weather at saint george utah for next week",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 19,
+          "endPos": 35,
+          "entity": "Location"
+        },
+        {
+          "startPos": 41,
+          "endPos": 49,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "how was the weather in chambersburg last sunday",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 23,
+          "endPos": 34,
+          "entity": "Location"
+        },
+        {
+          "startPos": 36,
+          "endPos": 44,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "i want to know the weather at death valley for now",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 30,
+          "endPos": 41,
+          "entity": "Location"
+        },
+        {
+          "startPos": 47,
+          "endPos": 49,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "provide me by toronto weather please",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 14,
+          "endPos": 20,
+          "entity": "Location"
+        }
+      ]
+    },
+    {
+      "text": "show current weather for boise",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 5,
+          "endPos": 11,
+          "entity": "Date"
+        },
+        {
+          "startPos": 25,
+          "endPos": 29,
+          "entity": "Location"
+        }
+      ]
+    },
+    {
+      "text": "show me the forecast at alabama",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 24,
+          "endPos": 30,
+          "entity": "Location"
+        }
+      ]
+    },
+    {
+      "text": "soliciting today's weather",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 11,
+          "endPos": 15,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "Weather of delhi for next week please",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 11,
+          "endPos": 15,
+          "entity": "Location"
+        },
+        {
+          "startPos": 21,
+          "endPos": 29,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "Weather of delhi for next year please",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 11,
+          "endPos": 15,
+          "entity": "Location"
+        },
+        {
+          "startPos": 21,
+          "endPos": 29,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "Weather of delhi for next month please",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 11,
+          "endPos": 15,
+          "entity": "Location"
+        },
+        {
+          "startPos": 21,
+          "endPos": 30,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "Weather of delhi for last month please",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 11,
+          "endPos": 15,
+          "entity": "Location"
+        },
+        {
+          "startPos": 21,
+          "endPos": 30,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "Weather of delhi for last year please",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 11,
+          "endPos": 15,
+          "entity": "Location"
+        },
+        {
+          "startPos": 21,
+          "endPos": 30,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "what will the weather be tomorrow in new york ?",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 37,
+          "endPos": 44,
+          "entity": "Date"
+        },
+        {
+          "startPos": 25,
+          "endPos": 32,
+          "entity": "Location"
+        }
+      ]
+    },
+
+    {
+      "text": "what's the weather going to be like in hawaii for tomorrow ?",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 39,
+          "endPos": 44,
+          "entity": "Location"
+        },
+        {
+          "startPos": 46,
+          "endPos": 53,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "what's the weather like in minneapolis",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 27,
+          "endPos": 37,
+          "entity": "Location"
+        }
+      ]
+    },
+    {
+      "text": "How is the weather this weekend",
+      "intent": "l_Weather",
+      "entities": [
+        {
+          "startPos": 24,
+          "endPos": 30,
+          "entity": "Date"
+        }
+      ]
+    },
+    {
+      "text": "who are you",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "what do you do",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "greetings",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "what",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "what are you",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "good evening",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "what is your name",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "what should i call you",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "what are you",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "stop",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "quit",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "cancel",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "support",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "assist",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "where does particulate matter come from?",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "what are the main health effects?",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "what are the most affected areas?",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "how can i check the air quality in my area?",
+      "intent": "q_qna",
+      "entities": []
+    },
+    {
+      "text": "what is air pollution?",
+      "intent": "q_qna",
+      "entities": []
+    }
+  ],
+  "settings": [
+    {
+      "name": "NormalizeDiacritics",
+      "value": "true"
+    }
+  ]
+}

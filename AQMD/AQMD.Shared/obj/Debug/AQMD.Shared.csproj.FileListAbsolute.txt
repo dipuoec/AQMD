@@ -25,3 +25,17 @@ C:\Users\Preludesys\source\repos\AQMD\AQMD\AQMD.Shared\bin\Debug\AQMD.Shared.dll
 C:\Users\Preludesys\source\repos\AQMD\AQMD\AQMD.Shared\bin\Debug\AQMD.Shared.pdb
 C:\Users\Preludesys\source\repos\AQMD\AQMD\AQMD.Shared\obj\Debug\AQMD.Shared.dll
 C:\Users\Preludesys\source\repos\AQMD\AQMD\AQMD.Shared\obj\Debug\AQMD.Shared.pdb
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\bin\Debug\AQMD.Shared.dll.config
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\bin\Debug\AQMD.Shared.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\bin\Debug\AQMD.Shared.pdb
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\bin\Debug\APIXULib.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\bin\Debug\APIXULib.pdb
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\obj\Debug\AQMD.Shared.csprojAssemblyReference.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\obj\Debug\AQMD.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\obj\Debug\AQMD.Shared.csproj.CopyComplete
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\obj\Debug\AQMD.Shared.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\obj\Debug\AQMD.Shared.pdb
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\bin\Debug\AdaptiveCards.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Shared\bin\Debug\Newtonsoft.Json.xml

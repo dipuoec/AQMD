@@ -105,8 +105,8 @@ namespace AQMD.Dialogs
                 GetWeatherInPlaceAction action = new GetWeatherInPlaceAction();
                 var place = weatherDetails.Location;
                 var date = weatherDetails.Date;
-                var weatherCard = (AdaptiveCards.AdaptiveCard)await action.FulfillAsync(place, _luisRecognizer.APIXUKey);
-                var alexaWeatherCard = (AlexaCardContent)await action.FulfillAsyncAlexa(place, _luisRecognizer.APIXUKey);
+                var weatherCard = (AdaptiveCards.AdaptiveCard)await action.FulfillAsync(place, date ,_luisRecognizer.APIXUKey);
+                var alexaWeatherCard = (AlexaCardContent)await action.FulfillAsyncAlexa(place, date , _luisRecognizer.APIXUKey);
 
                 if (weatherCard == null)
                 {
@@ -188,33 +188,7 @@ namespace AQMD.Dialogs
                 await context.SendActivityAsync(MessageFactory.Text("Sorry, could not find an answer in the Q and A system."), cancellationToken);
             }
         }
-        // Shows a warning if the requested From or To cities are recognized as entities but they are not in the Airport entity list.
-        // In some cases LUIS will recognize the From and To composite entities as a valid cities but the From and To Airport values
-        // will be empty if those entity values can't be mapped to a canonical item in the Airport.
-        //private static async Task ShowWarningForUnsupportedCities(ITurnContext context, FlightBooking luisResult, CancellationToken cancellationToken)
-        //{
-        //    var unsupportedCities = new List<string>();
-
-        //    var fromEntities = luisResult.FromEntities;
-        //    if (!string.IsNullOrEmpty(fromEntities.From) && string.IsNullOrEmpty(fromEntities.Airport))
-        //    {
-        //        unsupportedCities.Add(fromEntities.From);
-        //    }
-
-        //    var toEntities = luisResult.ToEntities;
-        //    if (!string.IsNullOrEmpty(toEntities.To) && string.IsNullOrEmpty(toEntities.Airport))
-        //    {
-        //        unsupportedCities.Add(toEntities.To);
-        //    }
-
-        //    if (unsupportedCities.Any())
-        //    {
-        //        var messageText = $"Sorry but the following airports are not supported: {string.Join(',', unsupportedCities)}";
-        //        var message = MessageFactory.Text(messageText, messageText, InputHints.IgnoringInput);
-        //        await context.SendActivityAsync(message, cancellationToken);
-        //    }
-        //}
-
+        
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             // If the child dialog ("WeatherDialog") was cancelled, the user failed to confirm or if the intent wasn't getting Weather Info

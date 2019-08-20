@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AdaptiveCards" Version="1.2.2" />
     <PackageReference Include="Bot.Builder.Community.Adapters.Alexa" Version="4.3.53" />
     <PackageReference Include="Microsoft.AdaptiveCards" Version="0.5.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.0" />

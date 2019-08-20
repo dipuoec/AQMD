@@ -20,7 +20,12 @@ namespace AQMD.Dialogs
     public class DateResolverDialog : CancelAndHelpDialog
     {
         private const string PromptMsgText = "For which date you want to check weather condition?";
-        private const string RepromptMsgText = "I'm sorry, to check weather please enter a full date including Day Month and Year.";
+        private static string RepromptMsgText = "I'm sorry, It seems you have asked info for invalid date. To check weather please enter a valid date from above list.";
+        public static string start = "";
+        public static string end = "";
+        public static int AttemptCount = 0;
+        public static bool isStart = false;
+        public static bool isEnd = false;
 
         public DateResolverDialog(string id = null)
             : base(id ?? nameof(DateResolverDialog))
@@ -45,7 +50,7 @@ namespace AQMD.Dialogs
                 if (DateTime.TryParse(text, out DateTime Temp) == true)
                 {
                     hasDate = true;
-                } 
+                }
                 else
                 {
                     hasDate = false;
@@ -53,9 +58,16 @@ namespace AQMD.Dialogs
                 }
 
             }
-            return hasDate;
+            if (hasDate)
+            {
+                return ((Convert.ToDateTime(inputText[1]) - Convert.ToDateTime(inputText[0])).TotalDays > 7) ? false : true;
+            }
+            else
+            {
+                return hasDate;
+            }
         }
-    
+
         public static string DateRange(string Date)
         {
             // Run the recognizer.
@@ -76,6 +88,7 @@ namespace AQMD.Dialogs
                         }
                         if (type == "daterange" && value.TryGetValue("start", out var start) && value.TryGetValue("end", out var end))
                         {
+
                             distinctTimexExpressions.Add(start + ',' + end);
                         }
                     }
@@ -94,26 +107,65 @@ namespace AQMD.Dialogs
             var timexProperty = new TimexProperty(time);
             if (!IsDateRange(time))
             {
-                // This is essentially a "reprompt" of the data we were given up front.
+
+                var getFeedback = stepContext.Context.Activity.CreateReply();
+                var feedbackChoices = new HeroCard
+                {
+                   // Text = "We could not identify the valid date . Please select any of the below.",
+                    Buttons = new List<CardAction>
+                    {
+                        new CardAction() { Title = "Next week", Type = ActionTypes.ImBack, Value = "next week"},
+                        new CardAction() { Title = "Next weekend", Type = ActionTypes.ImBack, Value = "next weekend"},
+                        new CardAction() { Title = "Tomorrow", Type = ActionTypes.ImBack, Value = "tomorrow"},
+                        new CardAction() { Title = "Today", Type = ActionTypes.ImBack, Value = "today"},
+                        new CardAction() { Title = "Last week", Type = ActionTypes.ImBack, Value = "last week"},
+                        new CardAction() { Title = "Last weekend", Type = ActionTypes.ImBack, Value = "last weekend"},
+                        new CardAction() { Title = "Yesterday", Type = ActionTypes.ImBack, Value = "yesterday"}
+                    },
+                };
+
+                // Add the card to our reply to user.
+                getFeedback.Attachments = new List<Attachment>() { feedbackChoices.ToAttachment() };
+
+                await stepContext.Context.SendActivityAsync(getFeedback, cancellationToken);
                 return await stepContext.PromptAsync(nameof(DateTimePrompt),
                     new PromptOptions
                     {
                         Prompt = repromptMessage,
                     }, cancellationToken);
+
             }
             return await stepContext.NextAsync(new List<DateTimeResolution> { new DateTimeResolution { Timex = time } }, cancellationToken);
         }
 
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
+            string time = null;
             var timex = ((List<DateTimeResolution>)stepContext.Result)[0].Timex;
-            return await stepContext.EndDialogAsync(timex, cancellationToken);
+            var isDefinite = new TimexProperty(timex).Types.Contains(Constants.TimexTypes.Definite);
+            if (isDefinite)
+            {
+                time = timex + "," + timex;
+            }
+            else if (isStart && isEnd)
+            {
+                time = start + "," + end;
+                isStart = false;
+                isEnd = false;
+            }
+            else if (IsDateRange(timex))
+            {
+                time = timex;
+            }
+
+            return await stepContext.EndDialogAsync(time, cancellationToken);
         }
 
         private static Task<bool> DateTimePromptValidator(PromptValidatorContext<IList<DateTimeResolution>> promptContext, CancellationToken cancellationToken)
         {
             if (promptContext.Recognized.Succeeded)
             {
+                AttemptCount = promptContext.AttemptCount;
                 // This value will be a TIMEX. And we are only interested in a Date so grab the first result and drop the Time part.
                 // TIMEX is a format that represents DateTime expressions that include some ambiguity. e.g. missing a Year.
                 var timex = promptContext.Recognized.Value[0].Timex.Split('T')[0];
@@ -121,6 +173,18 @@ namespace AQMD.Dialogs
                 // If this is a definite Date including year, month and day we are good otherwise reprompt.
                 // A better solution might be to let the user know what part is actually missing.
                 var isDefinite = new TimexProperty(timex).Types.Contains(Constants.TimexTypes.Definite);
+                if (!isDefinite)
+                {
+                    start = promptContext.Recognized.Value[0].Start;
+                    end = promptContext.Recognized.Value[0].End;
+                    isStart = new TimexProperty(start).Types.Contains(Constants.TimexTypes.Definite);
+                    isEnd = new TimexProperty(end).Types.Contains(Constants.TimexTypes.Definite);
+                    if (isStart && isEnd && ((Convert.ToDateTime(end) - Convert.ToDateTime(start)).TotalDays > 7))
+                        return Task.FromResult(false);
+                    else
+                        return Task.FromResult(true);
+
+                }
 
                 return Task.FromResult(isDefinite);
             }

@@ -18,6 +18,19 @@ namespace APIXULib
         public string localtime { get; set; }
     }
 
+    public class AirQuality
+    {
+        public int Id { get; set; }
+        public int AreaNumber { get; set; }
+        public string AreaName { get; set; }
+        public double AQI { get; set; }
+        public DateTime ForecastDateTime { get; set; }
+        public string AQICategory { get; set; }
+        public string Pollutant { get; set; }
+        public double PMTwoFive { get; set; }
+        public double PMTen { get; set; }
+        public double Ozone { get; set; }
+    }
     public class Condition
     {
         public string text { get; set; }

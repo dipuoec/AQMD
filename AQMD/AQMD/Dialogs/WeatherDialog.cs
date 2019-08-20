@@ -45,10 +45,7 @@ namespace AQMD.Dialogs
                 var promptMessage = MessageFactory.Text(LocationStepMsgText, LocationStepMsgText, InputHints.ExpectingInput);
                 return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
             }
-            //if (weatherDetails.Date != null && IsAmbiguous(weatherDetails.Date))
-            //{
-            //    return await stepContext.BeginDialogAsync(nameof(DateResolverDialog), weatherDetails.Date, cancellationToken);
-            //}
+            
             return await stepContext.NextAsync(weatherDetails.Location, cancellationToken);
         }
 
@@ -68,7 +65,7 @@ namespace AQMD.Dialogs
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             var weatherDetails = (WeatherDetails)stepContext.Options;
-            //weatherDetails.Location = (string)stepContext.Result;
+            weatherDetails.Date = stepContext.Result == null ? null : stepContext.Result.ToString();
             return await stepContext.EndDialogAsync(weatherDetails, cancellationToken);
         }
         private static bool IsAmbiguous(string timex)
@@ -76,17 +73,6 @@ namespace AQMD.Dialogs
             var timexProperty = new TimexProperty(timex);
             return !timexProperty.Types.Contains(Constants.TimexTypes.Definite);
         }
-    //    protected bool CheckDate(string date)
-    //    {
-    //        try
-    //        {
-    //            DateTime dt = DateTime.Parse(date);
-    //            return true;
-    //        }
-    //        catch
-    //        {
-    //            return false;
-    //        }
-    //    }
+    
     }
 }

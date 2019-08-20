@@ -1,0 +1,46 @@
+{
+  "qnaDocuments": [
+    {
+      "id": 1,
+      "answer": "Hello! ",
+      "source": "QnAMaker.tsv",
+      "questions": [
+        "hi",
+        "greetings",
+        "good morning",
+        "good evening"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "79f87603-ed6a-4cb2-a783-34ea87d68d24",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 2,
+      "answer": "I am the AQMD-POC Weather bot! I can provide weather forecast details for any location. Try Me!!",
+      "source": "QnAMaker.tsv",
+      "questions": [
+        "What are you?",
+        "What?",
+        "What do you do?",
+        "Who are you?",
+        "What is your name?",
+        "What should I call you?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "79f87603-ed6a-4cb2-a783-34ea87d68d24",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    }
+  ]
+}

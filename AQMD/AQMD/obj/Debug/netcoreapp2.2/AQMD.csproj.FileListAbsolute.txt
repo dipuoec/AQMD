@@ -19,3 +19,24 @@ C:\Users\Preludesys\source\repos\AQMD\AQMD\AQMD\obj\Debug\netcoreapp2.2\AQMD.pdb
 C:\Users\Preludesys\source\repos\AQMD\AQMD\AQMD\bin\Debug\netcoreapp2.2\AQMD.Shared.dll
 C:\Users\Preludesys\source\repos\AQMD\AQMD\AQMD\bin\Debug\netcoreapp2.2\AQMD.Shared.pdb
 C:\Users\Preludesys\source\repos\AQMD\AQMD\AQMD\bin\Debug\netcoreapp2.2\AQMD.Shared.dll.config
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\bin\Debug\netcoreapp2.2\AQMD.deps.json
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\bin\Debug\netcoreapp2.2\AQMD.runtimeconfig.json
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\bin\Debug\netcoreapp2.2\AQMD.runtimeconfig.dev.json
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\bin\Debug\netcoreapp2.2\AQMD.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\bin\Debug\netcoreapp2.2\AQMD.pdb
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\bin\Debug\netcoreapp2.2\APIXULib.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\bin\Debug\netcoreapp2.2\AQMD.Shared.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\bin\Debug\netcoreapp2.2\AQMD.Shared.pdb
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\bin\Debug\netcoreapp2.2\AQMD.Shared.dll.config
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\bin\Debug\netcoreapp2.2\APIXULib.pdb
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\obj\Debug\netcoreapp2.2\AQMD.csprojAssemblyReference.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\obj\Debug\netcoreapp2.2\AQMD.csproj.CoreCompileInputs.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\obj\Debug\netcoreapp2.2\AQMD.RazorAssemblyInfo.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\obj\Debug\netcoreapp2.2\AQMD.RazorAssemblyInfo.cs
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\obj\Debug\netcoreapp2.2\AQMD.AssemblyInfoInputs.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\obj\Debug\netcoreapp2.2\AQMD.AssemblyInfo.cs
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\obj\Debug\netcoreapp2.2\AQMD.RazorTargetAssemblyInfo.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\obj\Debug\netcoreapp2.2\AQMD.csproj.CopyComplete
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\obj\Debug\netcoreapp2.2\AQMD.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD\obj\Debug\netcoreapp2.2\AQMD.pdb

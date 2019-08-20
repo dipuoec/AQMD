@@ -48,3 +48,11 @@ C:\Users\Preludesys\source\repos\AQMD\AQMD\APIXULib\obj\Debug\APIXULib.csproj.Co
 C:\Users\Preludesys\source\repos\AQMD\AQMD\APIXULib\obj\Debug\APIXULib.dll
 C:\Users\Preludesys\source\repos\AQMD\AQMD\APIXULib\obj\Debug\APIXULib.pdb
 C:\Users\Preludesys\source\repos\AQMD\AQMD\APIXULib\obj\Debug\APIXULib.csprojAssemblyReference.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\APIXULib\bin\Debug\APIXULib.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\APIXULib\bin\Debug\APIXULib.pdb
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\APIXULib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\APIXULib\obj\Debug\APIXULib.csprojAssemblyReference.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\APIXULib\obj\Debug\APIXULib.csproj.CoreCompileInputs.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\APIXULib\obj\Debug\APIXULib.csproj.CopyComplete
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\APIXULib\obj\Debug\APIXULib.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\APIXULib\obj\Debug\APIXULib.pdb

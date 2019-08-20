@@ -21,3 +21,26 @@ C:\Users\Preludesys\source\repos\AQMD\AQMD\AQMD.Tests\obj\Debug\netcoreapp2.2\AQ
 C:\Users\Preludesys\source\repos\AQMD\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.Shared.dll
 C:\Users\Preludesys\source\repos\AQMD\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.Shared.pdb
 C:\Users\Preludesys\source\repos\AQMD\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.Shared.dll.config
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.Tests.deps.json
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.Tests.runtimeconfig.json
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.Tests.runtimeconfig.dev.json
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.Tests.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.Tests.pdb
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\APIXULib.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.Shared.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.pdb
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\APIXULib.pdb
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.Shared.pdb
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\bin\Debug\netcoreapp2.2\AQMD.Shared.dll.config
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\obj\Debug\netcoreapp2.2\AQMD.Tests.csprojAssemblyReference.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\obj\Debug\netcoreapp2.2\AQMD.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\obj\Debug\netcoreapp2.2\AQMD.Tests.AssemblyInfoInputs.cache
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\obj\Debug\netcoreapp2.2\AQMD.Tests.AssemblyInfo.cs
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\obj\Debug\netcoreapp2.2\AQMD.Tests.csproj.CopyComplete
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\obj\Debug\netcoreapp2.2\AQMD.Tests.dll
+C:\Users\Preludesys\source\repos\AQMD - Copy\AQMD\AQMD.Tests\obj\Debug\netcoreapp2.2\AQMD.Tests.pdb
