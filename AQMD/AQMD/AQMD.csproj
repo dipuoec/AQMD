@@ -18,7 +18,7 @@
     <PackageReference Include="AdaptiveCards" Version="1.2.2" />
     <PackageReference Include="Bot.Builder.Community.Adapters.Alexa" Version="4.3.53" />
     <PackageReference Include="Microsoft.AdaptiveCards" Version="0.5.1" />
-    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.6" />
     <PackageReference Include="Microsoft.Bot.Builder" Version="4.5.1" />
     <PackageReference Include="Microsoft.Bot.Builder.AI.Luis" Version="4.5.1" />
     <PackageReference Include="Microsoft.Bot.Builder.AI.QnA" Version="4.5.1" />
